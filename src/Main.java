@@ -5,7 +5,6 @@ public class Main {
         DatabaseHelper.loadCardsFromDatabase();
         DatabaseHelper.loadUsersFromDatabase();
 //leoo
-        System.out.print("ka");
         commandmanager.start();
         //add random cards after sign up;
     }
